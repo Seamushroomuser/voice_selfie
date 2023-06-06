@@ -40,7 +40,7 @@ function take_selfie(){
 }
 function save(){
    link = document.getElementById("link");
-   image = document.getElementById("selfie_image");
+   image = document.getElementById("selfie_image").src;
    link.href = image;
    link.click();
 }
